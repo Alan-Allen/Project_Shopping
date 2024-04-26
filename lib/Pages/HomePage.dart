@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
                 textColor: Colors.white,
                 width: 23, height: 15
             ),
-            const SizedBox(height: 50),
+            const SizedBox(height: 30),
             CustomButton(
                 onPressed: () {
                   print('calculation Page Button Pressed');
