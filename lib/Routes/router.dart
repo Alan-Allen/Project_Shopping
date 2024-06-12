@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:project_shopping/Pages/Navigation.dart';
 import 'package:project_shopping/Pages/ShopPage.dart';
 
 import '../Pages/HomePage.dart';
@@ -14,8 +15,8 @@ final router = GoRouter(
         builder: (context, state) => const ShopPage(),
       ),
       GoRoute(
-        path: '/cal',
-        builder: (context, state) => const HomePage(),
+        path: '/nav',
+        builder: (context, state) => const NavigationPage(),
       ),
     ]
 );
