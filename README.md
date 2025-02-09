@@ -1,8 +1,9 @@
 # project_shopping
 
-A new Flutter Shopping project.
+Flutter Shopping project.
 
 ## Funtion
 
 1. Shopping List
-2. price calculation
+2. Product Directory
+3. Route selection
